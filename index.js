@@ -26,6 +26,7 @@ app.post("/usuarios", (req, res) => {
     id: contador++,
     nome
   };
+})
   
   //ROTA PUT Atualiza usuarios por ID
   app.put ("/usuarios/: id", (req, res) => {
